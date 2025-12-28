@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>StudyBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-widget">
+
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-left">
+                <div class="bot-avatar">🤖</div>
+                <div class="bot-info">
+                    <h3>StudyBot</h3>
+                    <div class="status">
+                        <span class="status-dot"></span>
+                        Online
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Body -->
+        <div class="chat-body" id="chatBody">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Hello 👋 What would you like to work on today?
+                </div>
+            </div>
+        </div>
+
+        <!-- Input -->
+        <div class="chat-input">
+            <div class="input-wrapper">
+                <input type="text" id="messageInput" placeholder="Type your message…" autocomplete="off">
+                <button class="send-btn" id="sendBtn">➤</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="powered-by">
+        Secure • Private • AI-Powered
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
